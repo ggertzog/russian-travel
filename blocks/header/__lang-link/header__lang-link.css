@@ -1,0 +1,21 @@
+.header__lang-link {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.header__lang-link:first-child {
+    border-bottom: 2px solid #fff;
+}
+
+@media screen and (max-width: 424px) {
+    .header__lang-link {
+        font-size: 18px;
+        line-height: 20px;
+    }    
+}

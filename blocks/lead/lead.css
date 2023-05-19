@@ -1,0 +1,34 @@
+.lead {
+    width: calc(100% - 2 * 148px);
+    margin: 56px auto 0;
+    padding: 0;
+    text-align: center;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .lead {
+        width: calc(100% - 2 * 48px);
+        margin: 48px auto 0;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .lead {
+        width: 100%;
+        margin-top: 48px;
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+    .lead {
+        width: 100%;
+        margin-top: 48px;
+    }
+}
+
+@media screen and (max-width: 424px) {
+    .lead {
+        width: 100%;
+        margin-top: 48px;
+    }
+}
