@@ -1,6 +1,6 @@
 .place__paragraph {
     color: #FFF;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 29px;
@@ -8,46 +8,15 @@
     padding: 0;
 }
 
-.place__paragraph:nth-child(2) {
-    margin: 0;
-    padding: 0;
+.place__paragraph:last-child {
+    margin-bottom: 0;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
     .place__paragraph {
         font-size: 16px;
         line-height: 26px;
         margin-bottom: 25px;
     }
 
-    .place__paragraph:last-child {
-        margin-bottom: 0;
-        padding: 0;
-    }
-}
-
-@media screen and (min-width: 425px) and (max-width: 767px) {
-    .place__paragraph {
-        font-size: 16px;
-        line-height: 26px;
-        margin-bottom: 25px;
-    }
-
-    .place__paragraph:last-child {
-        margin-bottom: 0;
-        padding: 0;
-    }
-}
-
-@media screen and (max-width: 424px) {
-    .place__paragraph {
-        font-size: 16px;
-        line-height: 26px;
-        margin-bottom: 25px;
-    }
-    
-    .place__paragraph:last-child {
-        margin-bottom: 0;
-        padding: 0;
-    }
 }

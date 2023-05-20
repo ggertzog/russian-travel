@@ -1,6 +1,6 @@
 .place__link {
     color: #FFF;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
@@ -10,5 +10,5 @@
 }
 
 .place__link:hover {
-    opacity: 40%;
+    opacity: 80%;
 }

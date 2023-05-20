@@ -1,6 +1,6 @@
 .footer__copyright {
     color: #fff;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
@@ -9,7 +9,7 @@
     align-self: flex-end;
 }
 
-@media screen and (min-width: 426px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
     .footer__copyright {
         align-self: flex-start;
         margin-top: 48px;
@@ -18,10 +18,8 @@
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 424px) {
     .footer__copyright {
-        align-self: flex-start;
-        margin-top: 48px;
         font-size: 14px;
         line-height: 14px;
     }
