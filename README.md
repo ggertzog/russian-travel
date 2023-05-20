@@ -19,5 +19,5 @@
 
 **GitHub**
 
-*[Ссылка на репризиторий](https://github.com/ggertzog/russian-travel.git)
+*[Ссылка на репризиторий](https://ggertzog.github.io/russian-travel/index.html)
 
