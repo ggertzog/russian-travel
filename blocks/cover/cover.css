@@ -22,7 +22,7 @@
     bottom: 0;
     left: 0;
     right:0;
-    opacity: 0;
+    opacity: 30%;
     transition: .3s opacity linear 0s;
 }
 
