@@ -27,7 +27,7 @@
 }
 
 .cover:hover::before {
-    opacity: 50%;
+    opacity: 80%;
 }
 
 @media screen and (max-width: 1279px) {
